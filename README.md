@@ -78,7 +78,14 @@ To download and structure data [loader](preprocessing/loader.py) was developed.
     
 - NER/POS - but without labeled examples - can use (for example) Spacy to get pos of each word separately.
     Or NER to try to extract entities from texts.
-    
+
+## Troubleshooting
+
+If you face troubles with downloading NLTK tokenizers: 
+place ```nltk.download('punkt')``` before downloading all the others. 
+Problems with certificate: follow second answer 
+[here](https://stackoverflow.com/questions/38916452/nltk-download-ssl-certificate-verify-failed).
+
 ## All Beatles songs word cloud
 
 ![word cloud](imgs/word_cloud.png)
